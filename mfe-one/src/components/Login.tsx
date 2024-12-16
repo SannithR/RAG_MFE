@@ -2,6 +2,7 @@ import React, { FunctionComponent } from "react";
 import { Arrows } from "../Arrows/Arrows";
 import { Click } from "../Click/Click";
 import { Vector } from "../Vector/Vector";
+import "../../../styleguide1.css";
 
 import "./style.css";
 // import universalStudiosHollywood1 from "./universal-studios-hollywood-1.png";

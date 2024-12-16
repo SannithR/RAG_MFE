@@ -6,6 +6,7 @@ import { Frame4410 } from "../Frame4410/Frame4410";
 import { Header } from "../Header/Header";
 import { HistoryIcon1 } from "../HistoryIcon1/HistoryIcon1";
 import { Settings } from "../Settings/Settings";
+import "../../../styleguide1.css";
 // import OBJECTS from "./OBJECTS.png";
 import "./style.css";
 
