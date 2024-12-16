@@ -1,5 +1,5 @@
 .home {
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var(--global-core-colors-Primary-PrimaryDarker-value);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .home .overlap-wrapper {
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var( --global-core-colors-Primary-PrimaryDarker-value);
   height: 960px;
   width: 1440px;
 }
@@ -29,7 +29,7 @@
 
 .home .navigation {
   align-items: flex-start;
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var( --global-core-colors-Primary-PrimaryDarker-value);
   border: 0px none;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@
 .home .frame-3 {
   align-items: flex-end;
   align-self: stretch;
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var( --global-core-colors-Primary-PrimaryDarker-value);
   border-left-style: solid;
   border-left-width: 1px;
   display: flex;
@@ -214,7 +214,7 @@
 .home .footer {
   align-items: flex-start;
   align-self: stretch;
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var( --global-core-colors-Primary-PrimaryDarker-value);
   border-bottom-style: none;
   border-color: #0c3849;
   border-left-style: none;

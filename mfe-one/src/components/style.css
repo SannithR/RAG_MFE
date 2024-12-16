@@ -290,7 +290,7 @@
   all: unset;
   align-items: center;
   align-self: stretch;
-  background-color: var( --global-core-colors-Primary-Primary-value);
+  background-color: var(--global-core-colors-Primary-PrimaryDarker-value);
   border: 1px solid;
   border-color: #7e56d8;
   border-radius: 8px;
