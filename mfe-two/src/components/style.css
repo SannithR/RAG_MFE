@@ -2,7 +2,7 @@
   background-color: var(--global-core-colors-Primary-PrimaryDarker-value);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
   width: 100%;
 }
 
@@ -273,7 +273,7 @@
 }
 
 .home .text-2 {
-  color: var(--basewhite);
+  color: white;
   font-family: var(--text-sm-semibold-font-family);
   font-size: var(--text-sm-semibold-font-size);
   font-style: var(--text-sm-semibold-font-style);
@@ -287,7 +287,7 @@
 }
 
 .home .supporting-text-3 {
-  color: var(--primary-200);
+  color: white;
   font-family: "Inter-Regular", Helvetica;
   font-size: 14px;
   font-weight: 400;
@@ -343,7 +343,7 @@
 }
 
 .home .text-3 {
-  color: var(--gray-900);
+  /* color: var(--gray-900);
   font-family: var(--display-sm-semibold-font-family);
   font-size: var(--display-sm-semibold-font-size);
   font-style: var(--display-sm-semibold-font-style);
@@ -352,7 +352,16 @@
   line-height: var(--display-sm-semibold-line-height);
   position: relative;
   text-align: center;
-  width: 445px;
+  width: 445px; */
+
+font-family: Inter,sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .home .flexcontainer {
@@ -377,12 +386,16 @@
 
 .home .span {
   color: #475466;
-  font-family: var(--text-md-regular-font-family);
-  font-size: var(--text-md-regular-font-size);
-  font-style: var(--text-md-regular-font-style);
-  font-weight: var(--text-md-regular-font-weight);
-  letter-spacing: var(--text-md-regular-letter-spacing);
-  line-height: var(--text-md-regular-line-height);
+  font-family: Inter,sans-serif;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+ 
 }
 
 .home .frame-7 {

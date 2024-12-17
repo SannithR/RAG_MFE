@@ -34,7 +34,7 @@ const Login : FunctionComponent = () =>  {
                   <div className="div-2">
                     <div className="div-2">
                       <input
-                        className="label"
+                        className="label-1"
                         // htmlFor="input-1"
                         placeholder="Email"
                         type="email"

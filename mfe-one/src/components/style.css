@@ -56,7 +56,7 @@
 }
 
 .login .text {
-  align-self: stretch;
+  /* align-self: stretch;
   color: var(--gray-900);
   font-family: var(--display-sm-semibold-font-family);
   font-size: var(--display-sm-semibold-font-size);
@@ -65,11 +65,22 @@
   letter-spacing: var(--display-sm-semibold-letter-spacing);
   line-height: var(--display-sm-semibold-line-height);
   margin-top: -1.00px;
-  position: relative;
+  position: relative; */
+ 
+font-family: Inter, sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
 }
 
 .login .supporting-text {
-  align-self: stretch;
+  /* align-self: stretch;
   color: var(--gray-600);
   font-family: var(--text-md-regular-font-family);
   font-size: var(--text-md-regular-font-size);
@@ -77,7 +88,19 @@
   font-weight: var(--text-md-regular-font-weight);
   letter-spacing: var(--text-md-regular-letter-spacing);
   line-height: var(--text-md-regular-line-height);
-  position: relative;
+  position: relative; */
+ 
+font-family: Inter,sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #475467!important; ;
+
+
 }
 
 .login .frame {
@@ -125,8 +148,8 @@
   width: 100%;
 }
 
-.login .label {
-  background: transparent;
+.login .label-1 {
+  /* background: transparent;
   border: none;
   color: var(--gray-700);
   font-family: var(--text-sm-medium-font-family);
@@ -139,7 +162,16 @@
   padding: 0;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: fit-content; */
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #344054 !important;
+
 }
 
 .login .input {
@@ -177,7 +209,7 @@
 }
 
 .login .label-2 {
-  color: var(--gray-700);
+  /* color: var(--gray-700);
   font-family: var(--text-sm-medium-font-family);
   font-size: var(--text-sm-medium-font-size);
   font-style: var(--text-sm-medium-font-style);
@@ -187,7 +219,15 @@
   margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: fit-content; */
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#656d7a;
 }
 
 .login .row {
@@ -263,7 +303,7 @@
 
 .login .text-3 {
   color: #044862;
-  font-family: var(--text-sm-semibold-font-family);
+  /* font-family: var(--text-sm-semibold-font-family);
   font-size: var(--text-sm-semibold-font-size);
   font-style: var(--text-sm-semibold-font-style);
   font-weight: var(--text-sm-semibold-font-weight);
@@ -272,7 +312,16 @@
   margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: fit-content; */
+
+font-family: Inter,sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .login .actions {
@@ -307,7 +356,7 @@
 }
 
 .login .text-4 {
-  color: var(--basewhite);
+  /* color: var(--basewhite);
   font-family: var(--text-md-semibold-font-family);
   font-size: var(--text-md-semibold-font-size);
   font-style: var(--text-md-semibold-font-style);
@@ -317,7 +366,15 @@
   margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: fit-content; */
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white
 }
 
 .login .row-2 {
@@ -332,7 +389,7 @@
 }
 
 .login .text-5 {
-  color: var(--gray-600);
+  /* color: var(--gray-600);
   font-family: var(--text-sm-regular-font-family);
   font-size: var(--text-sm-regular-font-size);
   font-style: var(--text-sm-regular-font-style);
@@ -342,7 +399,16 @@
   margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: fit-content; */
+
+font-family: Inter,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .login .button-3 {
@@ -451,12 +517,13 @@
   object-fit: cover;
   position: relative;
   width: 314px;
+  border-radius: 24px;
 }
 
 .login .supporting-text-2 {
   align-self: stretch;
   color: #101828;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0;
