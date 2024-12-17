@@ -23,8 +23,15 @@
     "zustand": "^4.3.8"
   },
   "devDependencies": {
+    "@types/babel__generator": "^7.6.8",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/http-errors": "^2.0.4",
+    "@types/istanbul-lib-report": "^3.0.3",
     "@types/react": "^18.2.8",
     "@types/react-dom": "^18.2.4",
+    "@types/send": "^0.17.4",
+    "@types/yargs-parser": "^21.0.3",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.58.3",
