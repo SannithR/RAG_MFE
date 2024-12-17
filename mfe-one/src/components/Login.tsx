@@ -8,12 +8,20 @@ import "./style.css";
 // import universalStudiosHollywood1 from "./universal-studios-hollywood-1.png";
 
 const Login : FunctionComponent = () =>  {
+  
   return (
     <div className="login">
       <div className="section">
         <div className="container">
           <div className="content">
-            <Vector className="vector-instance" />
+            {/* <Vector className="vector-instance" /> */}
+            <img
+      className="vector-instance"
+      alt="Universal Studios"
+      style={{
+        content: `url(${getComputedStyle(document.documentElement).getPropertyValue('--global-logo-value').trim()})`
+      }}
+    />
             <div className="text-and-supporting">
               <div className="text">Welcome to RAG</div>
 
@@ -110,11 +118,15 @@ const Login : FunctionComponent = () =>  {
 
         <div className="frame-2">
           <div className="frame-3">
-            <img
-              className="universal-studios"
-              alt="Universal studios"
-              src="/bg_image_1.png"
-            />
+          <img
+      className="universal-studios"
+      alt="Universal Studios"
+      style={{
+        content: `url(${getComputedStyle(document.documentElement).getPropertyValue('--global-image1-value').trim()})`
+      }}
+    />
+       
+            
 
             <p className="supporting-text-2">
               Create a highly itinerary with multiple options.
@@ -122,11 +134,18 @@ const Login : FunctionComponent = () =>  {
           </div>
 
           <div className="frame-3">
-            <img
+            {/* <img
               className="img"
               alt="Universal studios"
               src="/bg_image_2.png"
-            />
+            /> */}
+               <img
+      className="universal-studios"
+      alt="Universal Studios"
+      style={{
+        content: `url(${getComputedStyle(document.documentElement).getPropertyValue('--global-image2-value').trim()})`
+      }}
+    />
 
             <div className="supporting-text-2">
               Provide current entertainment trends
