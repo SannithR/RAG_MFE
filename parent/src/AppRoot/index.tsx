@@ -43,7 +43,7 @@ export const AppRoot: FunctionComponent = (): ReactElement => {
   return (
     <>
       {appInitialised ? (
-        <Flex minHeight={"100vh"} bg={"gray.200"}>
+        <Flex minHeight={"100vh"} >
           {/* {(sessionStore.token ? true : false) && <NavBar />} */}
 
           <Flex flexDir={"column"} flexGrow={1}>
