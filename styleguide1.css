@@ -104,5 +104,26 @@
   --global-core-Button-Focus-value: 52;
   --global-core-Button-md-value: 44;
   --global-$metadata-tokenSetOrder-0-value: core;
+  --global-fontFamilies-inter-value: Inter;
+  --global-lineHeights-0-value: AUTO;
+  --global-fontWeights-inter-0-value: Bold;
+  --global-fontSize-0-value: 32;
+  --global-letterSpacing-0-value: 0%;
+  --global-paragraphSpacing-0-value: 0;
+  --global-H1-value-fontFamily: {fontFamilies.inter};
+  --global-H1-value-fontWeight: {fontWeights.inter-0};
+  --global-H1-value-lineHeight: {lineHeights.0};
+  --global-H1-value-fontSize: {fontSize.0};
+  --global-H1-value-letterSpacing: {letterSpacing.0};
+  --global-H1-value-paragraphSpacing: {paragraphSpacing.0};
+  --global-H1-value-paragraphIndent: {paragraphIndent.0};
+  --global-H1-value-textCase: {textCase.none};
+  --global-H1-value-textDecoration: {textDecoration.none};
+  --global-textCase-none-value: none;
+  --global-textDecoration-none-value: none;
+  --global-paragraphIndent-0-value: 0px;
+  --global-logo-value: https://uirepo.blob.core.windows.net/files/RadiantLogo.png;
+  --global-image1-value: https://uirepo.blob.core.windows.net/files/image.png;
+  --global-image2-value: https://uirepo.blob.core.windows.net/files/universal-studios-hollywood-1.png;
   --$metadata-tokenSetOrder-0: global;
 }
